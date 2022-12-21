@@ -143,11 +143,40 @@
 
 ## Часть 5. Dockle
 
+Сканирование образа через Dockle.
+![image](resources/5.1.png)
 
-![image](resources/)
+Исправление ошибок в Dockerfile
+![image](resources/5.2.png)
+
+Повторное сканование
+![image](resources/5.3.png)
+
+Заново билдим и проверяем, что все работает
+![image](resources/5.4.png)
+![image](resources/5.5.png)
+![image](resources/5.6.png)
 
 
-![image](resources/)
+## Часть 6. Базовый Docker Compose
 
+Создание конфигурационных файлов
+- прокси:
+![image](resources/6.1.png)
+-сервер:
+![image](resources/6.2.png)
 
-![image](resources/)
+Dockerfile из Pt. 5
+![image](resources/6.3.png)
+
+Создание docker compose файла
+![image](resources/6.4.png)
+
+Билд при помощи `docker-compose build`
+![image](resources/6.5.png)
+Поднятие при сомощи `docker-compose up`
+![image](resources/6.6.png)
+![image](resources/6.7.png)
+
+Проверка
+![image](resources/6.8.png)
